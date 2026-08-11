@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.122.1](https://github.com/promptfoo/promptfoo/compare/0.122.0...0.122.1) (2026-08-11)
+
+
+### Bug Fixes
+
+* **assertions:** correct inverse JSON failure messages ([#9824](https://github.com/promptfoo/promptfoo/issues/9824)) ([d1d8de3](https://github.com/promptfoo/promptfoo/commit/d1d8de31470b0dc238f67cf2de0a926bc0ed3416))
+* **assertions:** reject out-of-range trace-span-duration percentile ([#10089](https://github.com/promptfoo/promptfoo/issues/10089)) ([49c0f6d](https://github.com/promptfoo/promptfoo/commit/49c0f6d77496c022c6d32e362522993bb0d72d42))
+* **assertions:** score tokenless GLEU inputs as zero ([#9850](https://github.com/promptfoo/promptfoo/issues/9850)) ([cc8c0c6](https://github.com/promptfoo/promptfoo/commit/cc8c0c65f1378d80166b2a209747cd9c1a6302c2))
+* **deps:** block install scripts in Docker builds ([#10330](https://github.com/promptfoo/promptfoo/issues/10330)) ([c4454c4](https://github.com/promptfoo/promptfoo/commit/c4454c401c93d77a6a46fe1d883175f47adc1eff))
+* **deps:** bundle the runtime cache dependency ([#10302](https://github.com/promptfoo/promptfoo/issues/10302)) ([b5f8ea3](https://github.com/promptfoo/promptfoo/commit/b5f8ea3b0a307adb91c31ed4e13a3d6896902841))
+* **deps:** hold jsdom below the release our Node floor cannot install ([#10351](https://github.com/promptfoo/promptfoo/issues/10351)) ([2dcb128](https://github.com/promptfoo/promptfoo/commit/2dcb128ce6ced450fd91d036d5695a29c8369681))
+* **deps:** limit pnpm install scripts and new releases ([#10331](https://github.com/promptfoo/promptfoo/issues/10331)) ([0dbf6c8](https://github.com/promptfoo/promptfoo/commit/0dbf6c8e0bbcaa232b2fe4447545080aa0e5bf18))
+* **deps:** prevent incompatible Chevrotain parser updates ([#10306](https://github.com/promptfoo/promptfoo/issues/10306)) ([77c08d5](https://github.com/promptfoo/promptfoo/commit/77c08d5f0cf7720249648ff064dfdef2a3f23200))
+* **deps:** restore standard cache dependency resolution ([#10314](https://github.com/promptfoo/promptfoo/issues/10314)) ([ca65846](https://github.com/promptfoo/promptfoo/commit/ca65846615f65a2316c3378adae0607488303e8f))
+* **deps:** update dependency chalk to v6 ([#10309](https://github.com/promptfoo/promptfoo/issues/10309)) ([1c30e18](https://github.com/promptfoo/promptfoo/commit/1c30e183c4a464d953898398399dc6aa69786471))
+* **deps:** update dependency gcp-metadata to v9 ([#10350](https://github.com/promptfoo/promptfoo/issues/10350)) ([16cb1f3](https://github.com/promptfoo/promptfoo/commit/16cb1f3c251d2aa8227ead6fd802ee3b8790f5d2))
+* **deps:** update dependency openai to v7 ([#10318](https://github.com/promptfoo/promptfoo/issues/10318)) ([9a5f84b](https://github.com/promptfoo/promptfoo/commit/9a5f84b96976111376a586c48414014ddd8b42fd))
+* **providers:** update GPT model costs ([#10319](https://github.com/promptfoo/promptfoo/issues/10319)) ([9988fcb](https://github.com/promptfoo/promptfoo/commit/9988fcb02b1dc0b6aee11e4c2266b21c54c9a1da))
+
 ## [0.122.0](https://github.com/promptfoo/promptfoo/compare/0.121.20...0.122.0) (2026-08-04)
 
 ### ⚠ BREAKING CHANGES
